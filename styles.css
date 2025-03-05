@@ -321,7 +321,7 @@ FEATURES
 }
 
 .book {
-  width: 25%;
+  width: 100%;
   padding: 24px;
 }
 
@@ -428,10 +428,16 @@ BOOKS PAGE
 }
 
 .books__header {
+  flex-direction: column;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   padding: 0 24px;
+}
+
+.sort__imgs {
+  display: flex;
+  justify-content: space-between;
 }
 
 .books__header--title {
